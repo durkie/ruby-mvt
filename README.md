@@ -1,7 +1,11 @@
 # ruby-mvt
 vector-tile-spec reading for Ruby
 
-# example
+## dependency
+- protobuf -- brew install protobuf
+- ruby_protobuf -- gem install ruby_protobuf
+
+## example
 ```ruby
 $ rake
 ./vector_tile.pb.rb writing...
