@@ -2,7 +2,7 @@
 vector-tile-spec reading for Ruby
 
 # example
->|ruby|
+```ruby
 $ rake
 ./vector_tile.pb.rb writing...
 layers {
@@ -24,4 +24,4 @@ values {
 extent: 4096
 version: 2
 }
-||<
+```
