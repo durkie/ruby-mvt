@@ -26,4 +26,31 @@ layer marine_label: 10 features, version 2, extent 4096
   keys: ["labelrank", "name", "name_ar", "name_de", "name_en", "name_es", "name_fr", "name_pt", "name_ru", "name_zh", "placement"]
 layer state_label: 35 features, version 2, extent 4096
   keys: ["abbr", "area", "name", "name_ar", "name_de", "name_en", "name_es", "name_fr", "name_pt", "name_ru", "name_zh"]
+$ ./mvt.rb https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap/VectorTileServer/tile/2/3/1.pbf
+layer Port: 2 features, version , extent 4096
+  keys: ["_label_class", "_name"]
+layer Land: 2 features, version , extent 4096
+  keys: ["_symbol"]
+layer Continent: 1 features, version , extent 4096
+  keys: ["_label_class", "_name"]
+layer City small scale: 6 features, version , extent 4096
+  keys: ["_symbol", "_label_class", "_name"]
+layer Marine waterbody_label: 3 features, version , extent 4096
+  keys: ["_label_class", "_name"]
+layer Water line small scale_label: 14 features, version , extent 4096
+  keys: ["_label_class", "_name"]
+layer Water line small scale: 1 features, version , extent 4096
+  keys: ["_label_class", "_name"]
+layer Water area small scale: 1 features, version , extent 4096
+  keys: ["_label_class", "_name"]
+layer Vegetation small scale: 2 features, version , extent 4096
+  keys: ["_symbol"]
+layer Bathymetry: 6 features, version , extent 4096
+  keys: ["_symbol"]
+layer Boundary line: 7 features, version , extent 4096
+  keys: ["_symbol", "DisputeID"]
+layer Admin0 area_label: 6 features, version , extent 4096
+  keys: ["_label_class", "_name"]
+layer Marine area: 2 features, version , extent 4096
+  keys: ["_label_class", "_name_local", "_name_global"]
 ```
