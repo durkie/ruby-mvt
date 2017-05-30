@@ -2,11 +2,16 @@
 vector-tile-spec reading for Ruby
 
 ## dependency
-- protobuf -- brew install protobuf
-- ruby_protobuf -- gem install ruby_protobuf
+- protobuf -- `brew install protobuf`
+- ruby_protobuf -- `bundle install` (with [Bundler](http://bundler.io/)) or `gem install ruby_protobuf` (without Bundler)
 
 ## example
 ```sh
+### install gems with bundler
+$ gem install bundler
+$ bundle install
+
+### execute mvt.rb
 $ ./mvt.rb https://globalmaps-vt.github.io/gmjp22vt/2/3/1.mvt
 layer lsBA010: 338 features, version 2, extent 4096
   keys: ["f_code", "acc", "exs", "soc"]
