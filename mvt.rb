@@ -1,5 +1,6 @@
 #! /usr/bin/env ruby
 require 'open-uri'
+require 'bundler/setup'
 require './vector_tile.pb.rb'
 
 def process(url)
